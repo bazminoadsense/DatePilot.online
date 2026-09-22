@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fbfaf6"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.04"/>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#172021" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect x="80" y="80" width="160" height="160" fill="#174b4a"/>
+  <text x="160" y="178" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="800" fill="white" text-anchor="middle" dominant-baseline="central">DP</text>
+  <text x="270" y="158" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="800" fill="#172021">DatePilot</text>
+  <text x="270" y="208" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="500" fill="#c45a36">datepilot.online</text>
+  <text x="80" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="800" fill="#172021">Date, Calendar &amp; Time Tools</text>
+  <text x="80" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#5a6464">Free calculators with clear explanations.</text>
+  <text x="80" y="440" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#5a6464">Calculate dates, age, working days, week numbers, and time zones.</text>
+  <rect x="80" y="500" width="280" height="6" rx="3" fill="#c45a36"/>
+  <rect x="80" y="500" width="280" height="6" rx="3" fill="#174b4a" opacity="0.3"/>
+</svg>

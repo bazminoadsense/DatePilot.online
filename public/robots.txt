@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /internal/
+Sitemap: https://datepilot.online/sitemap.xml
