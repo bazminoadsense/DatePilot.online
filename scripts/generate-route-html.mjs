@@ -58,7 +58,7 @@ for (const [slug, title] of Object.entries(guideTitles)) {
 
 const template = fs.readFileSync(templatePath, 'utf8')
 for (const [route, [title, description]] of Object.entries(routes)) {
-  const canonical = `${siteUrl}${route === '/' ? '/' : route}`
+  const canonical = `${siteUrl}${route === '/' ? '/' : `${route}/`}`
   const html = template
     .replace(/<title>.*?<\/title>/, `<title>${title}</title>`)
     .replace(/<meta name="description" content=".*?" \/>/, `<meta name="description" content="${description}" />`)

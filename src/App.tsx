@@ -78,7 +78,7 @@ function setMeta(attribute: 'name' | 'property', key: string, content: string) {
 
 function updateSeo(path: string) {
   const seo = routeSeo(path)
-  const canonical = `${SITE_URL}${path === '/' ? '/' : path}`
+  const canonical = `${SITE_URL}${path === '/' ? '/' : `${path}/`}`
   document.title = `${seo.title}`
   setMeta('name', 'description', seo.description)
   setMeta('name', 'twitter:card', 'summary_large_image')
